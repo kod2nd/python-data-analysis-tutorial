@@ -3,6 +3,6 @@ from dotenv import load_dotenv
 
 load_dotenv('./.env')
 
-test = os.getenv("something")
+API_KEY = os.getenv("API_KEY")
 
-print(test)
+print(API_KEY)
